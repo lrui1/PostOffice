@@ -24,7 +24,7 @@ public class Lic implements Serializable {
      * 许可id
      */
     @TableId(value = "lic_id", type = IdType.AUTO)
-    private Long lic_id;
+    private Long licId;
 
     /**
      * 名称

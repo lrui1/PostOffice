@@ -25,17 +25,17 @@ public class Order implements Serializable {
      * 订单id
      */
     @TableId(value = "order_id", type = IdType.AUTO)
-    private Long order_id;
+    private Long orderId;
 
     /**
      * 客户id
      */
-    private Long client_id;
+    private Long clientId;
 
     /**
      * 国内统一刊号
      */
-    private String newspaper_id;
+    private String newspaperId;
 
     /**
      * 数量

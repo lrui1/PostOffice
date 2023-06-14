@@ -1,8 +1,8 @@
 package edu.jmu.lrui1.service.impl;
 
-import edu.jmu.lrui1.entity.User_role;
-import edu.jmu.lrui1.dao.User_roleDao;
-import edu.jmu.lrui1.service.IUser_roleService;
+import edu.jmu.lrui1.entity.UserRole;
+import edu.jmu.lrui1.dao.UserRoleDao;
+import edu.jmu.lrui1.service.IUserRoleService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +15,6 @@ import org.springframework.stereotype.Service;
  * @since 2023-06-14
  */
 @Service
-public class User_roleServiceImpl extends ServiceImpl<User_roleDao, User_role> implements IUser_roleService {
+public class User_roleServiceImpl extends ServiceImpl<UserRoleDao, UserRole> implements IUserRoleService {
 
 }

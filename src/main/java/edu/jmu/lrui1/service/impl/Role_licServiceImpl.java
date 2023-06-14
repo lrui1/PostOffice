@@ -1,8 +1,8 @@
 package edu.jmu.lrui1.service.impl;
 
-import edu.jmu.lrui1.entity.Role_lic;
-import edu.jmu.lrui1.dao.Role_licDao;
-import edu.jmu.lrui1.service.IRole_licService;
+import edu.jmu.lrui1.entity.RoleLic;
+import edu.jmu.lrui1.dao.RoleLicDao;
+import edu.jmu.lrui1.service.IRoleLicService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +15,6 @@ import org.springframework.stereotype.Service;
  * @since 2023-06-14
  */
 @Service
-public class Role_licServiceImpl extends ServiceImpl<Role_licDao, Role_lic> implements IRole_licService {
+public class Role_licServiceImpl extends ServiceImpl<RoleLicDao, RoleLic> implements IRoleLicService {
 
 }

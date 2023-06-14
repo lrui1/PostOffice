@@ -24,7 +24,7 @@ public class Client implements Serializable {
      * 客户id
      */
     @TableId(value = "client_id", type = IdType.AUTO)
-    private Long client_id;
+    private Long clientId;
 
     /**
      * 名称

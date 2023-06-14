@@ -16,7 +16,7 @@ import lombok.EqualsAndHashCode;
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
-public class Role_lic implements Serializable {
+public class RoleLic implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
@@ -24,17 +24,17 @@ public class Role_lic implements Serializable {
      * id
      */
     @TableId(value = "role_lic_id", type = IdType.AUTO)
-    private Long role_lic_id;
+    private Long roleLicId;
 
     /**
      * 角色id
      */
-    private Long role_id;
+    private Long roleId;
 
     /**
      * 许可id
      */
-    private Long lic_id;
+    private Long licId;
 
 
 }

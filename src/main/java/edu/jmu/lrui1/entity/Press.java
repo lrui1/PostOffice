@@ -21,7 +21,7 @@ public class Press implements Serializable {
     /**
      * 出版社编号
      */
-    private String press_id;
+    private String pressId;
 
     /**
      * 名称

@@ -22,7 +22,7 @@ public class Newspaper implements Serializable {
     /**
      * 国内统一刊号
      */
-    private String newspaper_id;
+    private String newspaperId;
 
     /**
      * 名称

@@ -1,6 +1,6 @@
 package edu.jmu.lrui1.dao;
 
-import edu.jmu.lrui1.entity.User_role;
+import edu.jmu.lrui1.entity.UserRole;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @author lrui1
  * @since 2023-06-14
  */
-public interface User_roleDao extends BaseMapper<User_role> {
+public interface UserRoleDao extends BaseMapper<UserRole> {
 
 }

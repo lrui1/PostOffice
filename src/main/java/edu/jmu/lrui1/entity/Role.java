@@ -24,7 +24,7 @@ public class Role implements Serializable {
      * 角色id
      */
     @TableId(value = "role_id", type = IdType.AUTO)
-    private Long role_id;
+    private Long roleId;
 
     /**
      * 名称
@@ -34,7 +34,7 @@ public class Role implements Serializable {
     /**
      * 角色code
      */
-    private String role_code;
+    private String roleCode;
 
     /**
      * 描述
