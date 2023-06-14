@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql:///post_office?serverTimezone=Asia/Shanghai
+    username: postOffice.lrui1
+    password: jmu_zuicaide
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: on # 驼峰大小写转换
