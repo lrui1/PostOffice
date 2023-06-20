@@ -7,6 +7,7 @@ import java.io.Serializable;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
 
 /**
  * <p>
@@ -19,6 +20,7 @@ import lombok.EqualsAndHashCode;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @AllArgsConstructor
+@NoArgsConstructor
 public class User implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -40,9 +42,27 @@ public class User implements Serializable {
     private String password;
 
     /**
-     * 客户id
+     * 随机salt
      */
-    private Long clientId;
+    private String salt;
 
+    /**
+     * 电话
+     */
+    private String tel;
 
+    /**
+     * 联系地址
+     */
+    private String address;
+
+    /**
+     * 邮政编码
+     */
+    private String postalCode;
+
+    /**
+     * 身份 1位用户 2位管理员
+     */
+    private Integer identity;
 }

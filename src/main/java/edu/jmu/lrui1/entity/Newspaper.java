@@ -37,12 +37,12 @@ public class Newspaper implements Serializable {
     /**
      * 版面规格
      */
-    private String page_size;
+    private String pageSize;
 
     /**
      * 出版社编号
      */
-    private String press_id;
+    private String pressId;
 
 
 }

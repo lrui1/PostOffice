@@ -8,3 +8,5 @@ spring:
 mybatis-plus:
   configuration:
     map-underscore-to-camel-case: on # 驼峰大小写转换
+swagger:
+  enabled: true
